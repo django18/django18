@@ -31,20 +31,22 @@ Current focus: systems where **humans and AI collaborate** — with clear state 
 Stack: React · X-State · WebSockets · PWA/WebView · TypeScript
 ```
 
-- Architected complex workflow state machines using **X-State** for session planning, task tracking, and state transitions
-- WebSocket-driven real-time pipeline: voice input → AI processing → annotated response
-- Runs across Android (PWA/WebView), desktop, and web — single codebase, full CI/CD from zero
+- Architected complex workflow state machines using **X-State** — session planning, task tracking, multi-step state transitions
+- WebSocket-driven real-time pipeline: voice input → AI processing → annotated response, with live draw annotation overlay
+- Designed human-in-the-loop patterns: users review AI actions, override decisions, intervene in ongoing flows
 
-### 🧪 Spark Test — SigIQ (PadhAI)
-*Secure sandboxed assessment environment at scale*
+### 📱 PadhAI — Full Product, End-to-End
+*Cross-platform AI learning app — web, Android native, desktop*
 
 ```
-Stack: React · Node.js · TypeScript · State Persistence · Observability
+Stack: React · React Native · Node.js · TypeScript · AI layer · Fastlane · CI/CD
 ```
 
-- Built end-to-end: frontend + backend service layer with state persistence and fallback strategies
-- Sandboxed execution environment with robust observability and rapid iteration loops
-- Owns high-traffic production adoption path
+- Owned the product end-to-end as a startup-within-a-company: UI system → backend services → AI integration layer
+- Cross-platform: single product across **Android native**, **PWA/WebView**, and **desktop web** — consistent UX, platform-native feel
+- Built full CI/CD from zero using **Fastlane** — automated builds, signing, Play Store deployments, and release pipelines
+- Backend service layer with state persistence, fallback strategies, and observability; includes **Spark Test** — a secure sandboxed assessment environment at scale
+- Defined org-wide frontend architecture standards, led technical design reviews, mentored engineers
 
 ### 📈 Autonomous Trading Agent *(personal)*
 *AI agent for Indian equity F&O markets (NSE/BSE)*
@@ -75,7 +77,7 @@ Stack: Bun · Elysia · TypeScript · Supabase · Redis · Gemini 2.0 / Claude
 ## Career Arc
 
 ```
-2024 – now   Staff Engineer · SigIQ (PadhAI)      AI Voice Tutor, Spark Test, full-stack ownership
+2024 – now   Staff Engineer · SigIQ (PadhAI)      AI Voice Tutor, PadhAI app, full-stack + Fastlane CI/CD
 2024         Senior FE Engineer · Saxo Bank        Trading grids, FormBuilder, micro-frontends
 2021 – 2023  Frontend Engineer · LeadIQ            Server-driven UI, 40% retention lift, CI/CD
 2019 – 2021  Frontend Engineer · Saxo Bank         React Native trading platform, design system
