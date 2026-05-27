@@ -24,8 +24,8 @@ Current focus: systems where **humans and AI collaborate** — with clear state 
 
 ## Currently Building
 
-### 🎓 AI Voice Tutor — SigIQ (PadhAI)
-*Real-time multimodal learning experience — voice, chat, draw annotation*
+### EverTutor — SigIQ
+*AI Voice Tutor — real-time multimodal learning experience (voice, chat, draw annotation)*
 
 ```
 Stack: React · X-State · WebSockets · PWA/WebView · TypeScript
@@ -35,20 +35,20 @@ Stack: React · X-State · WebSockets · PWA/WebView · TypeScript
 - WebSocket-driven real-time pipeline: voice input → AI processing → annotated response, with live draw annotation overlay
 - Designed human-in-the-loop patterns: users review AI actions, override decisions, intervene in ongoing flows
 
-### 📱 PadhAI — Full Product, End-to-End
+### PadhAI — SigIQ
 *Cross-platform AI learning app — web, Android native, desktop*
 
 ```
 Stack: React · React Native · Node.js · TypeScript · AI layer · Fastlane · CI/CD
 ```
 
-- Owned the product end-to-end as a startup-within-a-company: UI system → backend services → AI integration layer
-- Cross-platform: single product across **Android native**, **PWA/WebView**, and **desktop web** — consistent UX, platform-native feel
-- Built full CI/CD from zero using **Fastlane** — automated builds, signing, Play Store deployments, and release pipelines
-- Backend service layer with state persistence, fallback strategies, and observability; includes **Spark Test** — a secure sandboxed assessment environment at scale
+- Owned end-to-end as a startup-within-a-company: UI system → backend services → AI integration layer
+- Cross-platform: **Android native**, **PWA/WebView**, and **desktop web** — consistent UX, platform-native feel
+- Built full CI/CD from zero using **Fastlane** — automated builds, signing, Play Store deployments, release pipelines
+- Backend service layer with state persistence, fallback strategies, and observability; includes **Spark Test** — secure sandboxed assessment at scale
 - Defined org-wide frontend architecture standards, led technical design reviews, mentored engineers
 
-### 📈 Autonomous Trading Agent *(personal)*
+### Autonomous Trading Agent *(personal)*
 *AI agent for Indian equity F&O markets (NSE/BSE)*
 
 ```
@@ -77,11 +77,11 @@ Stack: Bun · Elysia · TypeScript · Supabase · Redis · Gemini 2.0 / Claude
 ## Career Arc
 
 ```
-2024 – now   Staff Engineer · SigIQ (PadhAI)      AI Voice Tutor, PadhAI app, full-stack + Fastlane CI/CD
-2024         Senior FE Engineer · Saxo Bank        Trading grids, FormBuilder, micro-frontends
-2021 – 2023  Frontend Engineer · LeadIQ            Server-driven UI, 40% retention lift, CI/CD
-2019 – 2021  Frontend Engineer · Saxo Bank         React Native trading platform, design system
-2016 – 2019  Research Engineer · C-DOT             MERN stack, diagramming, 40% regression drop
+2024 – now   Staff Engineer · SigIQ             EverTutor, PadhAI — full-stack, AI layer, Fastlane CI/CD
+2024         Senior FE Engineer · Saxo Bank     Trading grids, FormBuilder, micro-frontends
+2021 – 2023  Frontend Engineer · LeadIQ         Server-driven UI, 40% retention lift, CI/CD
+2019 – 2021  Frontend Engineer · Saxo Bank      React Native trading platform, design system
+2016 – 2019  Research Engineer · C-DOT          MERN stack, diagramming, 40% regression drop
 ```
 
 ---
@@ -90,14 +90,14 @@ Stack: Bun · Elysia · TypeScript · Supabase · Redis · Gemini 2.0 / Claude
 
 ```typescript
 const stack = {
-  frontend:    ["React", "Next.js", "TypeScript", "Tailwind", "React Native"],
-  state:       ["X-State", "Zustand", "Jotai", "Redux"],
-  realtime:    ["WebSockets", "SSE", "Async workflows"],
-  backend:     ["Node.js", "FastAPI", "Spring Boot", "Bun/Elysia"],
-  data:        ["Supabase", "Redis", "MongoDB", "SQL"],
-  ai:          ["Gemini 2.0 Flash", "Claude Sonnet", "OpenAI"],
-  testing:     ["Jest", "Playwright", "Cypress", "React Testing Library"],
-  tooling:     ["Nx/Turborepo", "Storybook", "CI/CD", "Webpack"],
+  frontend:  ["React", "Next.js", "TypeScript", "Tailwind", "React Native"],
+  state:     ["X-State", "Zustand", "Jotai", "Redux"],
+  realtime:  ["WebSockets", "SSE", "Async workflows"],
+  backend:   ["Node.js", "FastAPI", "Spring Boot", "Bun/Elysia"],
+  data:      ["Supabase", "Redis", "MongoDB", "SQL"],
+  ai:        ["Gemini 2.0 Flash", "Claude Sonnet", "OpenAI"],
+  testing:   ["Jest", "Playwright", "Cypress", "React Testing Library"],
+  tooling:   ["Nx/Turborepo", "Storybook", "CI/CD", "Webpack"],
 } as const;
 ```
 
